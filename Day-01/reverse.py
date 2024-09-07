@@ -7,4 +7,4 @@ def revNumber(num):
     num = num//10
   return reverse
 
-print("The reverse of the number : " , revNumner(num))  
+print("The reverse of the number : " , revNumber(num))  
