@@ -8,3 +8,11 @@ def fact(num):
     return fact
 
 print("The factorial of a number : ",fact(num))
+
+
+"""
+fact = 1
+num =  a number
+num reduce
+
+"""
