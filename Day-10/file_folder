@@ -1,0 +1,16 @@
+import os
+
+folder_path = input("Enter the folder names seperated by space: ").split()
+
+for folder in folder_path:
+    try:
+        files = os.listdir(folder)
+    except FileNotFoundError:
+        print("Enter a proper folder name")
+        continue
+    
+
+    print("The files for each folder :" , folder)
+
+    for file in files:
+        print(file)
