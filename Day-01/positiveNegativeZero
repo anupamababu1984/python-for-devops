@@ -1,0 +1,12 @@
+num = int(input("Enter a number : "))
+
+def positiveNegativeZero(num):
+    if (num == 0):
+        print("The number is neither positive or negative")
+    elif (num > 0):
+        print("The number is  positive ")
+    else:
+        print("The number is negative")
+    return num
+
+positiveNegativeZer(num)
