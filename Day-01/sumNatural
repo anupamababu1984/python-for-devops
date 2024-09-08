@@ -1,0 +1,12 @@
+num = int(input("Enter a number : "))
+
+def sumNatural(num):
+    result = num * (num + 1)
+    result = result / 2
+    return result
+
+if (num>0):
+    print("The sum of n natural numbers :",sumNatural(num))
+else:
+    print("Please enter a valid number")
+        
