@@ -1,0 +1,9 @@
+principal  = int(input("Enter a principle : "))
+rate  = int(input("Enter a rate : "))
+time = int(input("Enter a time : "))
+
+def compoundInterest():
+    ci = principal * (pow (1 + (rate/100),time))
+    return ci
+
+print(compoundInterest())
